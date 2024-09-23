@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2C3E50, #4CA1AF);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2980B9;
+}
+
+.navbar {
+    background-color: #1F2A38;
+}
+
+.futuristic-card {
+    border: 1px solid #4CA1AF;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.card-title {
+    color: #4CA1AF;
+}
+
+.btn-primary {
+    background-color: #4CA1AF;
+    border-color: #2980B9;
+}
+
+.btn-primary:hover {
+    background-color: #2980B9;
+    border-color: #1F2A38;
+}
+
+footer {
+    background-color: #1F2A38;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}
